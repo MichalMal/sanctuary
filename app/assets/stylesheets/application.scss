@@ -1,1 +1,42 @@
-@import "bootstrap/scss/bootstrap"
+@import "bootstrap/scss/bootstrap";
+
+// varaibles
+$color-white: #fbffff;
+$color-bg: #0f3d5a;
+$color-navy: #0000FF;
+$color-blue: #1c4e6e;
+$color-steel: #2a6b86;
+$color-sea: #4388a2;
+$color-turquoise: #70c5cd;
+$color-yellow: #ffca51;
+$color-orange: #eba43a;
+$color-brown: #c77a2c;
+
+body {
+    background-color: $color-bg;
+    color: $color-yellow;
+}
+
+
+.vh-70 {
+    height: 70vh !important;
+}
+
+#landing-jumbo {
+    background-color: $color-bg;
+}
+
+
+@keyframes mymove {
+    from {
+        -webkit-transform: translateX(0px);
+    }
+
+    to {
+        -webkit-transform: translateX(400px);
+    }
+}
+
+.cloud {
+    animation: mymove 8s infinite alternate ease-in-out;
+}
