@@ -1,2 +1,202 @@
-<h1>StaticPages#bus_tours</h1>
-<p>Find me in app/views/static_pages/bus_tours.html.erb</p>
+<div class="container text-center p-4">
+  <div class="row">
+    <div class="col-md-6 d-flex justify-content-center align-items-center">
+      <%= image_tag("Reserve.png", width: "40em", class: "px-2 img-responsive") %>
+      <h5> Nature Reserve / Game Park</h5>
+    </div>
+    <div class="col-md-6 d-flex justify-content-center align-items-center">
+      <%= image_tag("sanctuary location.png", width: "40em", class: "px-2 img-responsive") %>
+      <h5> Animal Sanctuary</h5>
+    </div>
+  </div>
+  <h1>
+  </div>
+  <div class="container vh-70 d-flex justify-content-center position-relative">
+    <%= image_tag("map.png", width: "70%", class: "img-responsive align-self-center") %>
+  </div>
+</div>
+<div class="container p-5">
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <h6>- Rietvlei Nature Reserve</h6>
+      <br>
+      <h6>- Dinokeng Game Reserve</h6>
+      <br>
+      <h6>- Groenkloof Nature Reserve</h6>
+    </div>
+    <div class="col-md-6 text-center">
+      <h6>- ann van dyk cheetah centre</h6>
+      <br>
+      <h6>- Elephant Sanctuary</h6>
+      <br>
+      <h6>- Four Paws Big Cat Sanctuary</h6>
+    </div>
+  </div>
+</div>
+<div class="container p-5">
+  <div class="alert alert-booking p-4 text-center" role="alert">
+    <h4 class="alert-heading">Book Now</h4>
+    <p>Book Now Throug our App for a Tour and recive a 40% discount!!!</p>
+    <hr>
+    <p class="mb-0">Must be a minimum of 10 people for the tour Booking</p>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-header">
+          <strong>Credit Card</strong>
+          <small>enter your card details</small>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-8">
+              <div class="form-group">
+                <label for="SR">Sanctuary of Reserve</label>
+                <input class="form-control" id="SR" type="text">
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label for="members">Number of members</label>
+                <input class="form-control" id="members" type="number">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-8">
+              <div class="form-group">
+                <label for="name">Name of School</label>
+                <input class="form-control" id="name" type="text" placeholder="Enter your name">
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label for="grade">Student Grade</label>
+                <select class="form-control" id="grade">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option selected>10</option>
+                  <option>11</option>
+                  <option>12</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-8">
+              <h3>Discount:</h3> 40% off
+            </div>
+            <div class="col-4">
+              <h4>R........,..</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8">
+              <h2>Total:</h2>
+            </div>
+            <div class="col-4">
+              <h4>R........,..</h4>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-12">
+              <h2>Credit Card Details</h2>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input class="form-control" id="name" type="text" placeholder="Enter your name">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="form-group">
+                <label for="ccnumber">Credit Card Number</label>
+                <div class="input-group">
+                  <input class="form-control" type="text" placeholder="0000 0000 0000 0000" autocomplete="email">
+                  <div class="input-group-append">
+                    <span class="input-group-text">
+                      <i class="mdi mdi-credit-card"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-sm-4">
+              <label for="ccmonth">Month</label>
+              <select class="form-control" id="ccmonth">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+            </div>
+            <div class="form-group col-sm-4">
+              <label for="ccyear">Year</label>
+              <select class="form-control" id="ccyear">
+                <option>2014</option>
+                <option>2015</option>
+                <option>2016</option>
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+                <option>2024</option>
+                <option>2025</option>
+              </select>
+            </div>
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label for="cvv">CVV/CVC</label>
+                <input class="form-control" id="cvv" type="text" placeholder="123">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-sm btn-success float-right" type="submit">
+            <i class="mdi mdi-gamepad-circle"></i> Continue</button>
+          <button class="btn btn-sm btn-danger" type="reset">
+            <i class="mdi mdi-lock-reset"></i> Reset</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>
+<div class="container-fluid p-0 position-relative position-absolute" style='height: 600px; overflow-y:visible'>
+  <%= image_tag("bus no shadow.png", width: "60%", class: "position-absolute", style: "bottom: 10px; left:20%; z-index:1") %>
+  <%= image_tag("tree.png", width: "50%", class: "position-absolute", style: "bottom: 30px; right:5%") %>
+  <div class="cffbtb position-absolute" style="bottom: 0; z-index:-1">
+  </div>
+</div>

@@ -13,10 +13,30 @@ $color-orange: #eba43a;
 $color-brown: #c77a2c;
 
 body {
-    background-color: $color-bg;
+    background-color: $color-steel;
+    color: $color-orange;
+    font-weight: 500;
+}
+
+nav.navbar {
+    color: $color-white
+}
+
+.card {
+    color: $color-brown;
+}
+
+h1 {
     color: $color-yellow;
 }
 
+h5 {
+    text-decoration: underline; 
+}
+
+.vh-60 {
+    height: 60vh !important;
+}
 
 .vh-70 {
     height: 70vh !important;
@@ -25,7 +45,6 @@ body {
 #landing-jumbo {
     background-color: $color-bg;
 }
-
 
 @keyframes mymove {
     from {
@@ -38,5 +57,19 @@ body {
 }
 
 .cloud {
-    animation: mymove 8s infinite alternate ease-in-out;
+    animation: mymove 25s infinite alternate ease-in-out;
+}
+
+.cffbtb {
+    width: 100%;
+    height: 40px;
+    background-color: $color-brown;
+}
+
+.alert-booking {
+    color: $color-blue;
+    background-color: $color-yellow;
+    border-color: $color-orange;
+    border-radius: 2rem;
+    font-weight: 600;
 }
